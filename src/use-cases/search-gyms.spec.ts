@@ -20,7 +20,7 @@ describe('Search Gym Use Case', () => {
     })
 
     await gymRepository.create({
-      title: 'Joao academia',
+      title: 'Ivone Test academia',
       description: 'teste de busca por query title',
       phone: '51 9978980',
       latitude: -29.6761905,
