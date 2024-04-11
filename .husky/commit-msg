@@ -1,0 +1,8 @@
+#!/bin/sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+echo 'initial commit message'
+
+npx --no -- commitlint --edit ${1}
+
+echo 'final commit message'

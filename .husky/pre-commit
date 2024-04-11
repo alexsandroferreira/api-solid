@@ -1,0 +1,5 @@
+echo 'check for lint '
+npm run lint
+
+
+echo 'check finished'
